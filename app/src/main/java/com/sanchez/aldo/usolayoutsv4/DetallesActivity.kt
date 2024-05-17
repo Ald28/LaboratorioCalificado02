@@ -36,7 +36,7 @@ class DetallesActivity : AppCompatActivity() {
     private fun showData(paraExtras:Bundle){
         val FullName = paraExtras.getString(Nombre_key)
         val Celular = paraExtras.getString(Celular_key)
-        val Productos = paraExtras.getString(Productos_key)
+        val Productos = paraExtras.getString(Correo_key)
         val Ciudad = paraExtras.getString(Ciudad_key)
         val Direccion = paraExtras.getString(Direccion_key)
 
